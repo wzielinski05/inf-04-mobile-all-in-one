@@ -46,10 +46,15 @@
                 android:text="Rejestruj konto \n INF.04-01-22.01 \nINF.04-01-21-06" />
 
             <Button
-                android:id="@+id/btn_domek_góra"
+                android:id="@+id/btn_domek_gora"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Domek w górach \n INF.04-01-22.06" />
+            <Button
+                android:id="@+id/btn_lista"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lista \nINF.04-01-23.01 \nINF.04-02-23.01" />
 
 
         </LinearLayout>

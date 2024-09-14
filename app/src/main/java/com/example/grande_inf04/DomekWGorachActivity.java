@@ -13,6 +13,8 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class DomekWGorachActivity extends AppCompatActivity {
 
+//    INF04-01-22.06
+
     Button likeIncrement;
     Button likeDecrement;
     TextView likesCount;

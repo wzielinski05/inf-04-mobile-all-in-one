@@ -7,5 +7,6 @@
     <color name="informator.bg3">#1565c0</color>
     <color name="rejestruj_konto.bg1">#008080</color>
     <color name="domek.btn">#008080</color>
+    <color name="lista.crimson">#DC143C</color>
 
 </resources>

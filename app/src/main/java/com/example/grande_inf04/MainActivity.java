@@ -14,7 +14,9 @@ import androidx.core.view.WindowInsetsCompat;
 public class MainActivity extends AppCompatActivity {
     Button btnInformator;
     Button btnRejestrujKonto;
-    Button btnDomekGóra;
+    Button btnDomekGora;
+    Button btnLista;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +30,9 @@ public class MainActivity extends AppCompatActivity {
         });
         btnInformator = findViewById(R.id.btn_informator);
         btnRejestrujKonto = findViewById(R.id.btn_rejestruj_konto);
-        btnDomekGóra = findViewById(R.id.btn_domek_góra);
+        btnDomekGora = findViewById(R.id.btn_domek_gora);
+        btnLista = findViewById(R.id.btn_lista);
+
         btnInformator.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -43,10 +47,17 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        btnDomekGóra.setOnClickListener(new View.OnClickListener() {
+        btnDomekGora.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), DomekWGorachActivity.class);
+                startActivity(intent);
+            }
+        });
+        btnLista.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), ListaActivity.class);
                 startActivity(intent);
             }
         });
