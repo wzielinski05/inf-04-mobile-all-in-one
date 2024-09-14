@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     Button btnRejestrujKonto;
     Button btnDomekGora;
     Button btnLista;
+    Button btnCzcionka;
 
 
     @Override
@@ -32,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         btnRejestrujKonto = findViewById(R.id.btn_rejestruj_konto);
         btnDomekGora = findViewById(R.id.btn_domek_gora);
         btnLista = findViewById(R.id.btn_lista);
+        btnCzcionka = findViewById(R.id.btn_czcionka);
 
         btnInformator.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -58,6 +60,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), ListaActivity.class);
+                startActivity(intent);
+            }
+        });
+        btnCzcionka.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), CzcionkaActivity.class);
                 startActivity(intent);
             }
         });

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".CzcionkaActivity">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/czcionka.bg"
+        android:text="Właściowści czcionki"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sizeInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rozmiar: "
+        android:textSize="30sp" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="40" />
+
+    <TextView
+        android:id="@+id/cytat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dzień dobry" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/czcionka.bg"
+        android:text=">>"
+        android:textStyle="bold" />
+</LinearLayout>

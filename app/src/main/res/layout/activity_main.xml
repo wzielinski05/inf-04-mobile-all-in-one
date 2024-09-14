@@ -55,6 +55,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Lista \nINF.04-01-23.01 \nINF.04-02-23.01" />
+            <Button
+                android:id="@+id/btn_czcionka"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Czcionka \nINF04-02-23.06" />
 
 
         </LinearLayout>

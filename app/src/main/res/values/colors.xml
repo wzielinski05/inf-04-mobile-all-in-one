@@ -8,5 +8,6 @@
     <color name="rejestruj_konto.bg1">#008080</color>
     <color name="domek.btn">#008080</color>
     <color name="lista.crimson">#DC143C</color>
+    <color name="czcionka.bg">#558B2F</color>
 
 </resources>
