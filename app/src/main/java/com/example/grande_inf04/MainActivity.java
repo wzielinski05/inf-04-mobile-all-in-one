@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     Button btnDomekGora;
     Button btnLista;
     Button btnCzcionka;
-
+    Button btnWet;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         btnDomekGora = findViewById(R.id.btn_domek_gora);
         btnLista = findViewById(R.id.btn_lista);
         btnCzcionka = findViewById(R.id.btn_czcionka);
+        btnWet = findViewById(R.id.btn_weterynarz);
 
         btnInformator.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -67,6 +68,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), CzcionkaActivity.class);
+                startActivity(intent);
+            }
+        });
+        btnWet.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), WeterynarzActivity.class);
                 startActivity(intent);
             }
         });

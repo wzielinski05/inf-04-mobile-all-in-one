@@ -60,6 +60,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Czcionka \nINF04-02-23.06" />
+            <Button
+                android:id="@+id/btn_weterynarz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weterynarz \nINF.04-02-24.01-SG \n INF.04-01-24.01-SD" />
 
 
         </LinearLayout>

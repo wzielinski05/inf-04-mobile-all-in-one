@@ -9,5 +9,7 @@
     <color name="domek.btn">#008080</color>
     <color name="lista.crimson">#DC143C</color>
     <color name="czcionka.bg">#558B2F</color>
+    <color name="wet.main">#90EE90</color>
+    <color name="wet.title">#2E8B57</color>
 
 </resources>
