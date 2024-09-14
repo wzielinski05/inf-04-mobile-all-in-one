@@ -15,8 +15,8 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:orientation="vertical"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
         <TextView
             android:layout_width="match_parent"
@@ -38,11 +38,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Informator" />
+
             <Button
                 android:id="@+id/btn_rejestruj_konto"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Rejestruj konto \n INF.04-01-22.01 \nINF.04-01-21-06" />
+
+            <Button
+                android:id="@+id/btn_domek_góra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Domek w górach \n INF.04-01-22.06" />
 
 
         </LinearLayout>

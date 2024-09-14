@@ -14,6 +14,7 @@ import androidx.core.view.WindowInsetsCompat;
 public class MainActivity extends AppCompatActivity {
     Button btnInformator;
     Button btnRejestrujKonto;
+    Button btnDomekGóra;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         });
         btnInformator = findViewById(R.id.btn_informator);
         btnRejestrujKonto = findViewById(R.id.btn_rejestruj_konto);
+        btnDomekGóra = findViewById(R.id.btn_domek_góra);
         btnInformator.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -38,6 +40,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), RejestrujKontoActivity.class);
+                startActivity(intent);
+            }
+        });
+        btnDomekGóra.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), DomekWGorachActivity.class);
                 startActivity(intent);
             }
         });
