@@ -45,7 +45,7 @@ public class RejestrujKontoActivity extends AppCompatActivity {
                 } else if (!editTextPassword.getText().toString().equals(editTextPassword2.getText().toString())) {
                     messagesTextView.setText("Hasła różnią się");
                 } else {
-                    messagesTextView.setText("Witaj" + editTextEmail.getText());
+                    messagesTextView.setText("Witaj " + editTextEmail.getText());
                 }
             }
         });

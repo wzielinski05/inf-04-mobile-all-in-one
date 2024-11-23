@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     Button btnLista;
     Button btnCzcionka;
     Button btnWet;
+    Button btnKosci;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
         btnLista = findViewById(R.id.btn_lista);
         btnCzcionka = findViewById(R.id.btn_czcionka);
         btnWet = findViewById(R.id.btn_weterynarz);
+        btnKosci = findViewById(R.id.btn_kosci);
 
         btnInformator.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -75,6 +77,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), WeterynarzActivity.class);
+                startActivity(intent);
+            }
+        });
+        btnKosci.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), GraWKosciActivity.class);
                 startActivity(intent);
             }
         });

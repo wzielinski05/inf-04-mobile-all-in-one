@@ -65,6 +65,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Weterynarz \nINF.04-02-24.01-SG \n INF.04-01-24.01-SD" />
+            <Button
+                android:id="@+id/btn_kosci"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kości \nINF.04-01-24.06-SG " />
 
 
         </LinearLayout>
